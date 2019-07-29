@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import GetHotels from './GetHotels/GetHotels.react';
 import Header from './Header/Header.react';

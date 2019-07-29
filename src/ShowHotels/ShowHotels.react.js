@@ -8,15 +8,17 @@ const ShowHotels = (props) => {
         <div >
              <table className='table table-striped'>
              <thead>
-                    <tr>
+                <tr>
                     <th>ID</th>
                     <th>Hotel Name</th>
-            <th>Location</th>
-            <th>Rating</th>
+                    <th>Location</th>
+                    <th>Rating</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
             
-                    </tr>
+                </tr>
                 
-                </thead> 
+            </thead> 
 
              <tbody>
                 {   
@@ -28,7 +30,11 @@ const ShowHotels = (props) => {
                         <td>{eachHotel.hotelName}</td>
                         <td>{eachHotel.location}</td>
                         <td>{eachHotel.rating}</td>
-                     
+                        
+                        <td><button   > Edit </button></td>
+                        <td><button   > Delete </button></td>
+            
+                       
                 </tr>
                 })
                 }
