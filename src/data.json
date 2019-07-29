@@ -1,0 +1,12 @@
+{
+    "hoteldata" : [
+    
+        
+            {"id":1,"hotelName":"Hilton","location":"Ekkathangal","rating":4.1},
+            {"id":2,"hotelName":"Hotel Taj","location":"Guindy","rating":4.8},
+            {"id":3,"hotelName":"Lemon Tree","location":"Velachery","rating":4.2},
+            {"id":4,"hotelName":"Hotel Park","location":"Vadapalni","rating":4.1}
+    
+    ]
+}
+    
